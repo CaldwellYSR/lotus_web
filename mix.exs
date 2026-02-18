@@ -49,7 +49,7 @@ defmodule Lotus.Web.MixProject do
 
       # Lotus
       # {:lotus, "~> 0.14"},
-      {:lotus, github: "typhoonworks/lotus", branch: "main"},
+      {:lotus, git: "https://github.com/CaldwellYSR/lotus", branch: "sql-server-support"},
 
       # Databases
       {:postgrex, "~> 0.20", only: [:dev, :test]},
